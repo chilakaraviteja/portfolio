@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+html {
+  font-size: 65%;
+}
+body {
+  font-size: 1.6rem;
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  background-color: rgb(0, 78, 141);
+}
+.log_name {
+  text-transform: capitalize;
+  font-size: 30px;
+}
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+}
+.nav__toggler div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: white;
+}
+.nav__toggler {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .nav__toggler {
+    display: block;
+  }
+}
