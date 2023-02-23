@@ -9,7 +9,6 @@ html {
 }
 body {
   font-size: 1.6rem;
-  background-color: black;
 }
 li {
   list-style: none;
@@ -42,6 +41,13 @@ a {
   margin: 0.4rem;
   background-color: white;
 }
+.nav__item:hover {
+  background-color: #3b8ed1;
+  padding: 4px 10px;
+  border-radius: 10px;
+  /* transition-delay: 0.3s; */
+  transition-duration: 1s;
+}
 .nav__toggler {
   cursor: pointer;
   display: none;
@@ -49,5 +55,8 @@ a {
 @media screen and (max-width: 768px) {
   .nav__toggler {
     display: block;
+  }
+  .nav__menu {
+    display: none;
   }
 }

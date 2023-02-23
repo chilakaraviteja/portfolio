@@ -1,0 +1,14 @@
+.contact__title {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: rgb(250, 250, 250);
+  margin: 4rem 20rem 4rem;
+  font-size: 3rem;
+}
+
+.contact__summary {
+  width: 50%;
+  height: auto;
+  background-color: yellow;
+}
