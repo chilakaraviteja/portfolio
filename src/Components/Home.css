@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.item {
+  width: 20rem;
+  height: auto;
+  padding: 10px;
+  border: 2px solid #568199;
+  background-color: white;
+  color: black;
+  border-radius: 15px;
+  margin: 1rem auto;
+}
+
+.item:hover {
+  background-color: #568199;
+  border: 2px solid #38454c;
+  color: white;
+}

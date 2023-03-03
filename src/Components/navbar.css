@@ -9,7 +9,6 @@ html {
 }
 body {
   font-size: 1.6rem;
-  background-color: black;
 }
 li {
   list-style: none;
@@ -25,6 +24,8 @@ a {
   width: 100vw;
   height: 10vh;
   background-color: rgb(0, 78, 141);
+  position: fixed;
+  top: 0;
 }
 .log_name {
   text-transform: capitalize;
