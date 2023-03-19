@@ -3,6 +3,7 @@ import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import NavBar from "./components/NavBar";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* </Route> */}
         {/* <Route path="/about-me"> */}
         <AboutMe />
+        <Footer />
         {/* </Route> */}
         {/* <Route path="/contact"> */}
         {/* <Contact /> */}

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/logo.svg";
 
 const NavBar = () => {
   const [isToggleBar, setIsToggleBar] = useState(false);
@@ -12,7 +13,8 @@ const NavBar = () => {
     <div className="w-full fixed top-0 left-0 bg-[#12232E] text-white">
       <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
         <div className="text-xl cursor-pointer flex items-center font-[Merienda]">
-          Ravi Teja Chilaka
+          <img src={logo} alt="logo" className="w-[40px]" />
+          <span className="px-2"> Ravi Teja Chilaka</span>
         </div>
         <div
           onClick={() => setIsToggleBar(!isToggleBar)}
@@ -28,7 +30,7 @@ const NavBar = () => {
           }`}
         >
           {Links.map(({ name, link }, index) => (
-            <li key={index} className="text-xs md:ml-8  md:my-0 my-5 ">
+            <li key={index} className="text-xs md:ml-8 md:my-0 my-5">
               {" "}
               <a href={link} className="font-[Merienda]">
                 {name}{" "}
