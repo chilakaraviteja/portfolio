@@ -11,7 +11,7 @@ const NavBar = () => {
   ];
   return (
     <div className="w-full fixed top-0 left-0 bg-[#12232E] text-white">
-      <div className="md:flex items-center justify-between py-4 md:px-10 px-7">
+      <div className="md:flex items-center justify-between px-7 py-3 md:px-10 ">
         <div className="text-xl cursor-pointer flex items-center font-[Merienda]">
           <img src={logo} alt="logo" className="w-[40px]" />
           <span className="px-2"> Ravi Teja Chilaka</span>
@@ -26,7 +26,7 @@ const NavBar = () => {
         </div>
         <ul
           className={`md:flex md:items-center pb-0 absolute md:static bg-[#12232E] md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-7  ${
-            isToggleBar ? "top-10 text-white" : "top-[-400px]"
+            isToggleBar ? "top-12 text-white" : "top-[-400px]"
           }`}
         >
           {Links.map(({ name, link }, index) => (
